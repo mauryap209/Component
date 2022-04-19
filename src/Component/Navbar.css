@@ -1,0 +1,39 @@
+ol{
+    background:linear-gradient(hsl(160, 75%, 39%),rgba(0,0,0,0.4));
+   
+   height: auto;
+    width: 100%;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    float: left;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+a:hover{
+    background-color: orange;
+   
+    color: black;
+    border-radius: 0.5rem;
+    
+}
+@media screen and(max-width:820px){
+    .a{
+      width: 40%;
+      background-color: yellow;
+    }
+}
+
+@media screen and(max-width:400px){
+    .a{
+        width: 80%;
+        background-color: yellow;
+      }
+}
